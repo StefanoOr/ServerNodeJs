@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
     console.log("attivo");
 });
 
-require("./app/routes/event.routes")(app);
+require("../ServerNodeJs/.idea/app/routes/event.routes")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
